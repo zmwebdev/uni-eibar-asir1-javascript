@@ -6,10 +6,13 @@
     <title>Document</title>
 
     <style>
+        body {
+            background-color: black;
+        }
         .cuadrado {
-            width: 100px;
-            height: 100px;
-            background-color: orangered;
+            width: 20px;
+            height: 20px;
+            background-color: white;
             box-shadow: 10px 10px;
             position:absolute;
             top:"0px";
@@ -54,9 +57,9 @@
         c1 = document.getElementById("cuadrado1");
         document.addEventListener("keydown", keyboard)
         //
-        x = 100;
+        x = 15;
         dx = 10;
-        y = 100;
+        y = 15;
         dy = 10;
         c1.style.left = x + "px";
         c1.style.top = y + "px";
