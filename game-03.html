@@ -26,6 +26,26 @@
 
     <script>
 
+        function mover(pos) {
+            for (i=0; i<pos; i++) {
+                x = x + dx;
+                c1.style.left = x + "px";
+            }
+
+            
+        }
+
+        function mover2(pos) {
+            i = 0
+            while (i < pos) {
+                x = x + dx;
+                i++
+                c1.style.left = x + "px";
+            }
+
+            
+        }
+
 
         function keyboard (key) {
             //console.log(key.keyCode)
@@ -33,11 +53,7 @@
                
             if (key.keyCode == 39) {
                 console.log("right");
-                if (x < 300) {
-                    x = x + dx; 
-                } else {
-                    x = 10
-                }
+                x = x + dx; 
             } else if (key.keyCode == 37) {
                 console.log("left")
                 x = x - dx; 
