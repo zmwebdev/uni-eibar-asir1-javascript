@@ -5,7 +5,7 @@ Uni-Eibar JS
 
 - https://github.com/as3-1-05/LANAK-JAVASCRIPT/tree/master/Proyecto
 - https://github.com/gorkaam13/javascript/tree/master/booststrap
-- https://github.com/AlexTola/AlexJS
+- https://github.com/AlexTola/AlexJS/blob/master/Proyecto%20evalu%202/TRABAJO.html
 - https://github.com/landerastaburuaga/trabajos
 - https://github.com/JavierSaezZ/trabajos/tree/master/bootstrap/Pagina2
 - https://github.com/AS3-1-2/javatrabajos/blob/master/bootstrap/webdos/webb.html
