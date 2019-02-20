@@ -13,7 +13,7 @@ Uni-Eibar JS
 - Asier: https://github.com/ASIERRR/uni-eibar-asir1-javascript
 - Oier: https://github.com/OierArsu/Java_script/tree/master/bootsrap
 - Jokin: https://github.com/Jokin8De/java/tree/master/Boots
-- Bartolo: https://github.com/jagcoder/BartolokTxirulaBatZeukan
+- Bartolo: https://github.com/jagcoder/BartolokTxirulaBatZeukan/tree/master/Proyecto%20aitor%20final
 - Julen: https://github.com/Julen12/boostrap-JulenMiquelez/blob/master/boostrap-julen/boostrap%20pagina/boostrap.html
 - Mark: https://github.com/L1nnx/asi1
 - Ivan: https://github.com/as3-1-17/bootstrap/blob/master/web-mobile.html
