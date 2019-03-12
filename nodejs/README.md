@@ -2,6 +2,8 @@
 
 - https://www.nodebeginner.org/index-es.html
 - https://expressjs.com/
+- https://www.w3schools.com/nodejs/default.asp
+- https://socket.io/
 
 ```
 npm init
