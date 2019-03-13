@@ -24,6 +24,7 @@ while (z != 10) {
 
 seguir = true;
 
+// https://www.w3schools.com/js/js_loop_while.asp
 while (seguir) {
 
     z = Math.floor(Math.random() * 51);
