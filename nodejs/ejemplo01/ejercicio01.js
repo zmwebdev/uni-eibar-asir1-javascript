@@ -18,7 +18,7 @@ tiempo = [
     {dia:"Viernes", cielo:"lluvia", temperatura:23},
     {dia:"Sábado", cielo:"sol", temperatura:10},
     {dia:"Domingo", cielo:"sol", temperatura:5},
-    {dia:"lunes", cielo:"Nublado", temperatura:0},
+    {dia:"lunes", cielo:"Nublado", temperatura:0}
 ]
 
 /*
@@ -36,9 +36,13 @@ console.log(tiempo[5].dia + " " + tiempo[5].cielo)
 
 var i;
 for (i = 0; i < tiempo.length; i++) { 
-    console.log(i)
+    //console.log(i)
     console.log(tiempo[i].dia + " " + tiempo[i].cielo)
 }
+
+/*
+Solo imprimir los días de lluvia. Pista: usar 'if'
+*/
 
 /*
 Crear una página HTML con los datos anteriores usando las imágenes (sol, nubes, ...)
