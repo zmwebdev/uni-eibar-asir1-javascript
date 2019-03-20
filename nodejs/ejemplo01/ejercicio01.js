@@ -54,7 +54,3 @@ Crear una página HTML con los datos anteriores usando las imágenes (sol, nubes
 nube: http://www.euskalmet.euskadi.eus/appcont/meteorologia/meteodat/images/12.png
 ...
 */
-
-/*
-Usando TTS, decir(audio) el tiempo de hoy
-*/
