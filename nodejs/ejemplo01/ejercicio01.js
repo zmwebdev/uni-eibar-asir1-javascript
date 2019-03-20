@@ -41,6 +41,10 @@ for (i = 0; i < tiempo.length; i++) {
 }
 
 /*
+Lo mismo pero usando while
+*/
+
+/*
 Solo imprimir los días de lluvia. Pista: usar 'if'
 */
 
@@ -49,4 +53,8 @@ Crear una página HTML con los datos anteriores usando las imágenes (sol, nubes
 
 nube: http://www.euskalmet.euskadi.eus/appcont/meteorologia/meteodat/images/12.png
 ...
+*/
+
+/*
+Usando TTS, decir(audio) el tiempo de hoy
 */
