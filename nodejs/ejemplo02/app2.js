@@ -11,7 +11,7 @@ app.get('/info', function (req, res) {
 });
 
 app.get('/web',function(req,res) {
-  res.sendFile('prueba.html');
+  res.sendFile(__dirname + '/prueba.html');
 });
 
 app.listen(3000, function () {
