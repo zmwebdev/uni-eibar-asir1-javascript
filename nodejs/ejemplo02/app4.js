@@ -1,3 +1,12 @@
+/*
+Crear una página HTML con los datos meteorológicos 
+usando nodejs.
+
+las imágenes (sol, nubes, ...)
+nube: http://www.euskalmet.euskadi.eus/appcont/meteorologia/meteodat/images/12.png
+...
+*/
+
 
 var express = require('express');
 var app = express();
