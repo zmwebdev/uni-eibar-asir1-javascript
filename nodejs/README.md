@@ -4,6 +4,7 @@
 - https://expressjs.com/
 - https://www.w3schools.com/nodejs/default.asp
 - https://socket.io/
+- https://expressjs.com/es/starter/installing.html
 
 ```
 npm init
@@ -12,9 +13,9 @@ npm init
 mpm -l
 
 # install package
-npm i http-server
+npm install express
 
 # uninstall
-npm uninstall http-server
-npm r http-server
+npm uninstall express
+npm r express
 ```
