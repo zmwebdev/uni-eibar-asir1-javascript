@@ -21,21 +21,25 @@ tiempo = [
 ]
 
 app.get('/', function (req, res) {
+  res.send("usa /dias/nublado, /dias/lluvioso, ...");
+});
 
-  var r = [];
-  //console.log("Días lluviosos:")
+// TODO
+app.get('/dias/:id', function (req, res) {
+
+  var r;
+  console.log("Días lluviosos:")
   for (var i = 0; i < tiempo.length; i++) { 
       //console.log(i)
       if (tiempo[i].cielo == "lluvia") {
           //console.log(tiempo[i].dia + " " + tiempo[i].cielo)
-          //console.log(tiempo[i].dia)
-          //r[r.length] = tiempo[i].dia
-          r.push(tiempo[i].dia)
+          console.log(tiempo[i].dia)
+          r = tiempo[i].dia
       }
   }
-  
   res.send(r);
 });
+
 
 app.listen(3000, function () {
   console.log('Example app listening on port 3000!');
