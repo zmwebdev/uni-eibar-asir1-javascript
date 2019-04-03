@@ -22,10 +22,9 @@ tiempo = [
 
 app.get('/', function (req, res) {
 
-  var i;
   var r;
   console.log("Días lluviosos:")
-  for (i = 0; i < tiempo.length; i++) { 
+  for (var i = 0; i < tiempo.length; i++) { 
       //console.log(i)
       if (tiempo[i].cielo == "lluvia") {
           //console.log(tiempo[i].dia + " " + tiempo[i].cielo)
