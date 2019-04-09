@@ -14,7 +14,7 @@ var app = express();
 tiempo = [
   {dia:"Miércoles", cielo:"lluvia", temperatura:12},
   {dia:"Jueves", cielo:"Nublado", temperatura:20},
-  {dia:"Viernes", cielo:"lluvia", temperatura:23},
+  {dia:"Viernes", cielo:"Nublado", temperatura:23},
   {dia:"Sábado", cielo:"sol", temperatura:10},
   {dia:"Domingo", cielo:"lluvia", temperatura:5},
   {dia:"lunes", cielo:"Nublado", temperatura:0}
