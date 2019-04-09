@@ -10,6 +10,9 @@ nube: http://www.euskalmet.euskadi.eus/appcont/meteorologia/meteodat/images/12.p
 
 var express = require('express');
 var app = express();
+// 
+//app.use(express.static('public'))
+app.use(express.static('.')) //segurtasun arazoa!!
 
 tiempo = [
   {dia:"Miércoles", cielo:"lluvia", temperatura:12},
