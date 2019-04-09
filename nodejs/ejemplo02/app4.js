@@ -20,7 +20,11 @@ tiempo = [
   {dia:"lunes", cielo:"Nublado", temperatura:0}
 ]
 
-app.get('/', function (req, res) {
+app.get('/',function(req,res) {
+  res.sendFile(__dirname + '/tiempo.html');
+});
+
+app.get('/datuak', function (req, res) {
 
   var r = [];
   //console.log("Días lluviosos:")
