@@ -28,6 +28,11 @@ app.get('/',function(req,res) {
   res.redirect('tiempo.html');
 });
 
+app.get('/api',function(req,res) {
+  res.redirect('api.html');
+});
+
+
 app.get('/datuak', function (req, res) {
 
   var r = [];
