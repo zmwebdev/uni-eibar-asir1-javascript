@@ -11,8 +11,8 @@ nube: http://www.euskalmet.euskadi.eus/appcont/meteorologia/meteodat/images/12.p
 var express = require('express');
 var app = express();
 // 
-//app.use(express.static('public'))
-app.use(express.static('.')) //segurtasun arazoa!!
+app.use(express.static('public'))
+//app.use(express.static('.')) //segurtasun arazoa!!
 
 tiempo = [
   {dia:"Miércoles", cielo:"lluvia", temperatura:12},
@@ -24,7 +24,8 @@ tiempo = [
 ]
 
 app.get('/',function(req,res) {
-  res.sendFile(__dirname + '/tiempo.html');
+  //res.sendFile(__dirname + '/tiempo.html');
+  res.redirect('tiempo.html');
 });
 
 app.get('/datuak', function (req, res) {
