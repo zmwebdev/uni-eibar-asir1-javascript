@@ -5,7 +5,7 @@
 - https://www.w3schools.com/nodejs/default.asp
 - https://socket.io/
 - https://expressjs.com/es/starter/installing.html
-
+- https://www.w3schools.com/nodejs/nodejs_mysql_select.asp
 ```
 npm init
 
