@@ -1,0 +1,15 @@
+{
+  "name": "erronka",
+  "version": "1.0.0",
+  "description": "- https://www.w3schools.com/nodejs/nodejs_mongodb.asp\r - ESP8266 + Nodejs + MongoDB : https://www.youtube.com/watch?v=sKk5viVDMCg\r - https://create.arduino.cc/projecthub/wildan/arduino-ethernet-shield-to-monitor-temperature-87bfab\r - https://tecadmin.net/install-latest-nodejs-npm-on-debian/\r - https://github.com/esp8266/Arduino",
+  "main": "index.js",
+  "dependencies": {
+    "mongodb": "^3.2.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
