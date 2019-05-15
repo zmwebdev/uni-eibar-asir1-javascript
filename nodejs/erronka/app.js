@@ -15,7 +15,7 @@ app.get('/:id/:t', function (req, res) {
 //app.get('/', function (req, res) {
   MongoClient.connect(url, function(err, db) {
     if (err) throw err;
-    var dbo = db.db("erronka");
+    var dbo = db.db("erronka2");
     var myobj = { sensor_id: req.params.id, datua: req.params.t, noiz: new Date().getTime()};
     dbo.collection("datuak").insertOne(myobj, function(err, res) {
       if (err) throw err;
