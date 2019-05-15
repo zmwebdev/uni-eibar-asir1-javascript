@@ -32,6 +32,7 @@ void setup() {
   }
 
   WiFi.mode(WIFI_STA);
+  //WiFiMulti.addAP("Alex/Oier/Gari", "Admin108");
   WiFiMulti.addAP("test", "test!12345");
 
 }
@@ -44,8 +45,17 @@ void loop() {
 
     HTTPClient http;
 
+    // read sensor
+    int sensorPin = 0;
+    int reading = analogRead(sensorPin); 
+    // converting that reading to voltage, for 3.3v arduino use 3.3
+    float voltage = reading * 3.3;
+    voltage /= 1024.0;
+    float temperatureC = (voltage - 0.5) * 100 ;
+    temperatureC = 15;
+
     Serial.print("[HTTP] begin...\n");
-    if (http.begin(client, "http://192.168.43.173:8080/1/15")) {  // HTTP
+    if (http.begin(client, "http://192.168.2.25:8080/1/" + String(temperatureC))) {  // HTTP
 
 
       Serial.print("[HTTP] GET...\n");
